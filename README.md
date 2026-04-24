@@ -13,12 +13,7 @@
 
 Fuzzy-search your [Claude Code](https://claude.ai/code) conversation history with fzf, then resume the session.
 
-```
-$ cres
-> 2026-04-22  ~/projects/backend    how do I set up a postgres connection pool...
-  2026-04-21  ~/projects/frontend   refactor the auth flow to use jwt tokens
-  2026-04-20  ~/scripts             write a bash script to batch rename files
-```
+<video src="https://github.com/nraw/cres/releases/download/v0.1.0/demo.mp4" autoplay loop muted playsinline></video>
 
 Selecting a message `cd`s to the folder where that conversation took place and runs `claude --resume <session>`.
 
