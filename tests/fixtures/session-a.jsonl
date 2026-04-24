@@ -1,0 +1,6 @@
+{"type":"permission-mode","permissionMode":"default","sessionId":"aaaaaaaa-1111-1111-1111-111111111111"}
+{"type":"file-history-snapshot","messageId":"x","snapshot":{},"isSnapshotUpdate":false}
+{"parentUuid":null,"type":"user","message":{"role":"user","content":"first real prompt in session A"},"uuid":"u1","timestamp":"2026-04-10T10:00:00.000Z","cwd":"/tmp/proj-a","sessionId":"aaaaaaaa-1111-1111-1111-111111111111","entrypoint":"cli"}
+{"parentUuid":"u1","type":"assistant","message":{"role":"assistant","content":"response"},"uuid":"u2","timestamp":"2026-04-10T10:00:01.000Z","cwd":"/tmp/proj-a","sessionId":"aaaaaaaa-1111-1111-1111-111111111111"}
+{"parentUuid":"u2","type":"user","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"t1","content":"tool output here"}]},"uuid":"u3","timestamp":"2026-04-10T10:00:02.000Z","cwd":"/tmp/proj-a","sessionId":"aaaaaaaa-1111-1111-1111-111111111111"}
+{"parentUuid":"u3","type":"user","message":{"role":"user","content":"second prompt with\nmultiple lines\nand tabs\there"},"uuid":"u4","timestamp":"2026-04-10T10:05:00.000Z","cwd":"/tmp/proj-a","sessionId":"aaaaaaaa-1111-1111-1111-111111111111","entrypoint":"cli"}

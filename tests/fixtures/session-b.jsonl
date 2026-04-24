@@ -1,0 +1,4 @@
+{"type":"permission-mode","permissionMode":"default","sessionId":"bbbbbbbb-2222-2222-2222-222222222222"}
+{"parentUuid":null,"type":"user","message":{"role":"user","content":"<command-name>/init</command-name>\n<command-message>init is running…</command-message>"},"uuid":"v1","timestamp":"2026-04-11T09:00:00.000Z","cwd":"/tmp/proj-b","sessionId":"bbbbbbbb-2222-2222-2222-222222222222","entrypoint":"cli"}
+{"parentUuid":"v1","type":"user","message":{"role":"user","content":"what does this repo do?"},"uuid":"v2","timestamp":"2026-04-11T09:01:00.000Z","cwd":"/tmp/proj-b","sessionId":"bbbbbbbb-2222-2222-2222-222222222222","entrypoint":"cli"}
+{"parentUuid":"v2","type":"assistant","message":{"role":"assistant","content":"..."},"uuid":"v3","timestamp":"2026-04-11T09:01:02.000Z","cwd":"/tmp/proj-b","sessionId":"bbbbbbbb-2222-2222-2222-222222222222"}
