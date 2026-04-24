@@ -1,3 +1,7 @@
+
+
+
+
 <p align="center">
   <img src="cres.png" alt="cres">
 </p>
@@ -13,7 +17,7 @@
 
 Fuzzy-search your [Claude Code](https://claude.ai/code) conversation history with fzf, then resume the session.
 
-<video src="https://github.com/nraw/cres/releases/download/v0.1.0/demo.mp4" autoplay loop muted playsinline></video>
+<video src="https://github.com/user-attachments/assets/0aac96d3-a76d-4b20-b3ca-43b74947615c" autoplay loop muted playsinline></video>
 
 Selecting a message `cd`s to the folder where that conversation took place and runs `claude --resume <session>`.
 
